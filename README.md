@@ -1,2 +1,2 @@
 # workspace
-workspace template
+workspace alpine template
