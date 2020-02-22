@@ -1,0 +1,9 @@
+version: '3'
+services:
+  alpine:
+    build: .
+    volumes:
+      - .:/usr/src
+    working_dir: /usr/src
+    stdin_open: true
+    tty: true
